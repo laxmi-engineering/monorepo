@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { IsometricFactory } from './components'
-import { FadeUp, FadeIn, FadeLeft, FadeRight, ScaleUp, StaggerChildren, StaggerSlow, StaggerItem } from './animations'
+import { FadeUp, FadeIn, FadeLeft, FadeRight, StaggerChildren, StaggerSlow, StaggerItem } from './animations'
 
 const strengths = [
   {

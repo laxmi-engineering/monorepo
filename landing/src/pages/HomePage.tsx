@@ -8,7 +8,7 @@ import {
   IsometricPressureVessel,
   IsometricMap,
 } from './components'
-import { FadeUp, FadeIn, FadeLeft, FadeRight, ScaleUp, StaggerChildren, StaggerSlow, StaggerItem } from './animations'
+import { FadeUp, FadeLeft, FadeRight, ScaleUp, StaggerChildren, StaggerSlow, StaggerItem } from './animations'
 
 const stats = [
   { value: '38+', label: 'Years', sublabel: 'Excellence' },

@@ -12,7 +12,7 @@ import ContactPage from './pages/ContactPage'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/monorepo">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />

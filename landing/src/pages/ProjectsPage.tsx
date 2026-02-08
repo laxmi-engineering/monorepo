@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { IsometricMap } from './components'
-import { FadeUp, FadeIn, ScaleUp, StaggerChildren, StaggerSlow, StaggerItem } from './animations'
+import { FadeUp, ScaleUp, StaggerChildren, StaggerSlow, StaggerItem } from './animations'
 
 const stats = [
   { label: 'Projects Delivered', value: '500+' },

@@ -52,7 +52,7 @@ type Props = {
   delay?: number
 }
 
-const defaultTransition = { duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }
+const defaultTransition = { duration: 0.45, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number] }
 
 /** Fade up on scroll */
 export function FadeUp({ children, className, delay = 0 }: Props) {
