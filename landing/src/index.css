@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Logo blue — primary brand */
+  --color-brand-50: #eff7fc;
+  --color-brand-100: #dfeff9;
+  --color-brand-200: #b8ddf2;
+  --color-brand-300: #83c4e8;
+  --color-brand-400: #46a5db;
+  --color-brand-500: #2d8fca;
+  --color-brand-600: #1e72ab;
+  --color-brand-700: #1a5c8b;
+  --color-brand-800: #1a4e73;
+  --color-brand-900: #1b4160;
+  --color-brand-950: #122a40;
+
+  /* Logo coral — warm accent for CTAs */
+  --color-coral-50: #fef2f3;
+  --color-coral-100: #fde6e8;
+  --color-coral-200: #fac1c6;
+  --color-coral-300: #f79aa2;
+  --color-coral-400: #f06b7a;
+  --color-coral-500: #e5445a;
+  --color-coral-600: #d12645;
+  --color-coral-700: #af1d3a;
+  --color-coral-800: #921c36;
+  --color-coral-900: #7d1c34;
+  --color-coral-950: #450a18;
+
+  --color-steel-50: #f6f7f9;
+  --color-steel-100: #eceef2;
+  --color-steel-200: #d5dae2;
+  --color-steel-300: #b0b9c9;
+  --color-steel-400: #8594ab;
+  --color-steel-500: #667891;
+  --color-steel-600: #516078;
+  --color-steel-700: #434e62;
+  --color-steel-800: #3a4353;
+  --color-steel-900: #333a47;
+  --color-steel-950: #22272f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
